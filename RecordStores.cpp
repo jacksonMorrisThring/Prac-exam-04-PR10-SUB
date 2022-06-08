@@ -7,8 +7,7 @@
 using namespace std;
 
 
-void RecordStores::sort(Amoeba **store, int n)  // sorts the array of n Amoeba pointers in // ascending order base on their storeID
-{
+void RecordStores::sort(Amoeba **store, int n){
     bool flag = true;
     int begin = 0;
     int finish = n-1;

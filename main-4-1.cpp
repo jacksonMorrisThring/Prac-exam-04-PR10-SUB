@@ -7,11 +7,20 @@
 using namespace std;
 
 int main(){
-    StoreChain chain;
+    Amoeba A1("84 Margaret Street North Adelaide");
+    Amoeba A2("ajhfbfln");
+    Amoeba A3("enjf3infe");
 
-    RecordStore** a_ptr = chain.get_chain();
-    
 
+    RecordStores();
 
+    Amoeba **ptr;
+    ptr[0] =&A1;
+    ptr[1] = &A2;
+    ptr[2] = &A3;
+
+    ptr = new Amoeba*[3];
+
+    sort(ptr, 5);
     return 0;
 }
