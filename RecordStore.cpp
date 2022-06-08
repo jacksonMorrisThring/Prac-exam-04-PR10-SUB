@@ -32,8 +32,19 @@ std::string RecordStore::get_name(){
 }
 
 void RecordStore::set_sales(int sales){
-    this -> sales = sales;
+    if (sales < 0){
+        this -> sales = 0;
+    }
+    else{
+        this -> sales = sales;
+    }
+
 }
 int RecordStore::get_sales(){
-    return sales;
+    if (sales < 0){
+        return 0;
+    }
+    else{
+        return sales;
+    }
 }
