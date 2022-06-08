@@ -13,6 +13,14 @@ Amoeba::Amoeba(std::string a){
     amoebaBranch++;
 }
 
+Amoeba::Amoeba(){
+    this -> name = "Amoeba";
+    this -> address = "?";
+    this -> sales = 0;
+    this -> storeID = amoebaBranch;
+    amoebaBranch++;
+}
+
 
 void Amoeba::set_storeID(int ID){
     this -> storeID = ID;

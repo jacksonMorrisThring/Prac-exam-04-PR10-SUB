@@ -11,6 +11,7 @@ protected:
     int storeID;                 // unique id for the store
 public:
     Amoeba(std::string a);
+    Amoeba();
 
     void set_storeID(int ID);
     int get_storeID();
