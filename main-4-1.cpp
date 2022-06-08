@@ -12,7 +12,7 @@ int main(){
     Amoeba A3("enjf3infe");
 
 
-    RecordStores();
+    RecordStores a1;
 
     Amoeba **ptr;
     ptr[0] =&A1;
@@ -21,6 +21,7 @@ int main(){
 
     ptr = new Amoeba*[3];
 
-    sort(ptr, 5);
+    a1.sort(ptr, 3);
+
     return 0;
 }
