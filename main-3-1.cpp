@@ -8,9 +8,10 @@ using namespace std;
 int main(){
     StoreChain chain;
 
-    RecordStore** a_ptr = chain.get_chain();
-    
+    RecordStore** a_ptr;
+    a_ptr = chain.get_chain();
 
+    cout << a_ptr[0] -> get_name() << endl;
 
     return 0;
 }
