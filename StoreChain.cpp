@@ -13,7 +13,7 @@ StoreChain::StoreChain(){
     Amoeba a2("Adelaide");
     Amoeba a3("Darwin");
 
-    ptr = new RecordStore*[5];
+    this -> ptr = new RecordStore*[5];
 
     ptr[0] = &at1;
     ptr[1] = &a1;
