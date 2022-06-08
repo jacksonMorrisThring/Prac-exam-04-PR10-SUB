@@ -6,12 +6,8 @@
 #include "RecordStores.h"
 using namespace std;
 
-int main(){
-    StoreChain chain;
 
-    RecordStore** a_ptr = chain.get_chain();
-    
-
-
-    return 0;
+void RecordStores::sort(Amoeba **store, int n)  // sorts the array of n Amoeba pointers in // ascending order base on their storeID
+{
+    n = 0;
 }
